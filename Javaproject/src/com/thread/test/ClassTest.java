@@ -21,6 +21,7 @@ public class ClassTest {
 			IllegalAccessException {
 		ClassTest ct = (ClassTest) cls.newInstance();
 		System.out.println(ct.a);
+		System.out.println("added comments");
 	}
 
 	static Class<?> getCurrentClass() {
